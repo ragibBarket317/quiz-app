@@ -1,0 +1,62 @@
+.question{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.singleQues{
+    width: 95%;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 3px solid whitesmoke;
+    padding: 20px;
+    margin-top: 10px;
+    box-shadow: 0 0 2px whitesmoke;
+}
+.options {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.singleOption{
+    width: 45%;
+    padding: 15px 20px;
+    height: 50px;
+}
+
+@media (max-width: 800px){
+    .singleOption{
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+.select {
+    background-color: rgb(10, 197, 10);
+    color: whitesmoke;
+    box-shadow: 0 0 1px black;
+}
+.wrong {
+    background-color: red;
+    color: whitesmoke;
+    box-shadow: 0 0 1px black;
+}
+.controls{
+    padding: 10px 0;
+}
+.controls Button{
+    width: 185px;
+    margin: 0 15px;
+}
+@media (max-width: 800px){
+    .controls Button{
+        width: 100px;
+        margin: 0 5px;
+    }
+}

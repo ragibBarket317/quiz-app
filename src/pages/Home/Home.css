@@ -1,0 +1,40 @@
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.setting_select{
+    margin-top: 10px;
+    padding: 15px;
+    width: 80%;
+    background-color: white;
+    text-align: center;
+    height: 60vh;
+}
+.settings{
+    width: 45%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.poster {
+    width: 55%;
+    align-self: center;
+    padding: 8px;
+}
+
+@media (max-width: 800px) {
+    .content{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .settings{
+        width: 100%;
+        padding-top: 20px;
+    }
+    .poster{
+        width: 85%;
+        padding: 0;
+        padding-top: 20px;
+    }
+}
